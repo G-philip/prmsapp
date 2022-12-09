@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://prmsapp.localhost';
+    public $baseURL = 'http://prmsapp.localhost/';
 
     /**
      * --------------------------------------------------------------------------

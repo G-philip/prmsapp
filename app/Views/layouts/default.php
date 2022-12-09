@@ -7,6 +7,7 @@
   <script src="<?= site_url('/bootstrap4/js/jquery-3.6.0.js') ?>"></script>
   <script src="<?= site_url('/bootstrap4/dist/js/bootstrap.bundle.min.js') ?>"></script>
   <script src="<?= site_url('/bootstrap4/summernote/summernote-bs4.min.js') ?>"></script>
+  <link href="https://demo.dashboardpack.com/architectui-html-free/main.css" rel="stylesheet">
   <link rel="stylesheet" href="<?= site_url('/bulma/css/bulma.css') ?>">
   <link rel="stylesheet" href="<?= site_url('/bootstrap4/dist/css/bootstrap.min.css') ?>">
 <link rel="stylesheet" href="<?= site_url('/bootstrap4/css/public_style.css') ?>">

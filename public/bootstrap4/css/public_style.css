@@ -4,6 +4,9 @@ body {
   text-transform: uuppercase;*/
   cursor: pointer;
 }
+/*home admin */
+
+/* disable admin delete button*/
 .admindisabled {
    color: currentColor;
    cursor: not-allowed;
