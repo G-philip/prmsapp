@@ -187,12 +187,11 @@ $routes->add('admin/invoice/new', 'Admin\Invoices::new');
 $routes->add('admin/invoice/show', 'Admin\Invoices::show');
 $routes->add('admin/invoice/test', 'Admin\Invoices::test');
 
-//$routes->get('admin/expense/report', 'Admin::expenseReport');
-//$routes->add('admin/staff/department/(:num)', 'Admin::getDepartment/$1');
-//$routes->add("admin/patients/new", "Admin::newPatient");
-//$routes->add("admin/patients/create", "Admin::createPatient");
-//$routes->add("admin/staff/department", "Admin::getDepartment");
-//$routes->add("admin/staff/edit", "Admin::editStaff");
+//Invoice Routes
+$routes->add('admin/notifications', 'Admin\Notifications::index');
+$routes->add('admin/notifications/new', 'Admin\Notifications::new');
+$routes->add('admin/notifications/create', 'Admin\Notifications::create');
+$routes->add('admin/notifications/success', 'Admin\Notifications::success');
 
 
 

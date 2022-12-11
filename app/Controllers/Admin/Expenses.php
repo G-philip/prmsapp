@@ -24,7 +24,7 @@ class Expenses extends \App\Controllers\BaseController
 														->select('monthname(created_at) As monthname')
 														->select('Year(created_at) As year')
 														//->sortBy('month')
-														->orderBy("Month(created_at)" , 'desc')
+														->orderBy("Year(created_at),Month(created_at)" , 'desc')
 														->findAll();
 
 
@@ -33,6 +33,7 @@ class Expenses extends \App\Controllers\BaseController
 												 ->select('monthname(created_at) As monthname')
 												 ->groupBy("Month(created_at)")
 												 ->findAll();
+
 
 					 //$month_totals = json_decode(json_encode($month_totals), FALSE);
 

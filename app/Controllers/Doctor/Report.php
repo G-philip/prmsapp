@@ -58,7 +58,8 @@ class Report extends \App\Controllers\BaseController
 			$model = new \App\Models\GuardianModel;
 			//$id = $this->request->getPost('id');
 
-			$patient = $model->join('patients', 'patients.id = guardians.patient_id')->where('patient_id', $id)
+			$patient = $model->join('patients', 'patients.id = guardians.patient_id')
+											 ->where('patient_id', $id)
 			                 ->findAll();
 
 				foreach ($patient as $patient_data){

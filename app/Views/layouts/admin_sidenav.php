@@ -3,7 +3,7 @@
   <li><a class="Sidebar-brand" href="#">Hospital Name</a></li>
 </div>
 <div class="sidebar_menu">
-<li><a href="#home"><i class="fa fa-fw fa-home"></i> Home</a></li>
+<li><a href="<?= site_url("admin/home") ?>"><i class="fa fa-fw fa-home"></i> Home</a></li>
 
 <li class="accordion"> <!--<i class="fas fa-users"><span class="badge badge-light">9</span></i>--><img src="https://i.ibb.co/jfScDTC/budget.png" alt="" style="width: 25px; height: 20px;"> Human Resource</li>
 <div class="accordion-content">

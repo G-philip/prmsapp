@@ -24,8 +24,14 @@
               </a>
             </div>
           </div>
+
       </ul>
       <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <!-- <button type="button" class="icon-button "> -->
+          <i class="fas fa-bell text-info mt-3"></i>
+          <!-- <span class="material-icons">notifications</span> -->
+          <!-- <span class="icon-button__badge">2</span> -->
+        <!-- </button> -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fa fa-fw fa-male"></i>Account
